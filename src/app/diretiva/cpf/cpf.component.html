@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm-12 m-3">
+    <h3>Diretiva CPF</h3>
+    <form [formGroup]='formulario'>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="form-group">
+            <label for="cpf">CPF {{ formulario.value.cpf }}</label>
+            <input type="text" class="form-control" appCpf formControlName="cpf" maxlength="18" />
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
