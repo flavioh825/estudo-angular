@@ -10,6 +10,8 @@ import { DiretivaComponent } from './diretiva/diretiva.component';
 import { DestaqueDirective } from './destaque.directive';
 import { CpfDirective } from './diretiva/cpf/cpf.directive';
 import { CpfComponent } from './diretiva/cpf/cpf.component';
+import { ComponentCommunicationComponent } from './component-communication/component-communication.component';
+import { ChildComponent } from './component-communication/child/child.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CpfComponent } from './diretiva/cpf/cpf.component';
     DiretivaComponent,
     DestaqueDirective,
     CpfDirective,
-    CpfComponent
+    CpfComponent,
+    ComponentCommunicationComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

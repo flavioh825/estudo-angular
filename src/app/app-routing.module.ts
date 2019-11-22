@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
 import { DiretivaComponent } from './diretiva/diretiva.component';
 import { CpfComponent } from './diretiva/cpf/cpf.component';
+import { ComponentCommunicationComponent } from './component-communication/component-communication.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'diretiva/cpf',
     component: CpfComponent
+  },
+  {
+    path: 'component-communication',
+    component: ComponentCommunicationComponent
   }
 ];
 
